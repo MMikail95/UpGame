@@ -43,6 +43,7 @@ public class Player : MonoBehaviour
 
     private void Start()
     {
+        Debug.Log("test");
         int index = Random.Range(0, colors.Count);
         currentColor = colors[index];
         GetComponent<Renderer>().material.color = currentColor;
